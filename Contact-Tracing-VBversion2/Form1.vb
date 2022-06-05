@@ -47,10 +47,32 @@
             qcctf.WriteLine("Are you experiencing sore throat?: No")
         End If
 
+        qcctf.WriteLine("")
+
         qcctf.Close()
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub resetButton_Click(sender As Object, e As EventArgs) Handles resetButton.Click
+        fullnameTextbox.Clear()
+        ageTextbox.Clear()
+        cnTextbox.Clear()
+        emailTextbox.Clear()
+        addressTextbox.Clear()
+
+        maleRadiobutton.Checked = False
+        FemaleRadiobutton.Checked = False
+        feverYes.Checked = False
+        feverNo.Checked = False
+        drycoughYes.Checked = False
+        drycoughNo.Checked = False
+        tirednessYes.Checked = False
+        tirednessNo.Checked = False
+        sorethroatYes.Checked = False
+        sorethroatNo.Checked = False
 
     End Sub
 End Class
