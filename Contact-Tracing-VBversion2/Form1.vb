@@ -4,8 +4,21 @@
     End Sub
 
     Private Sub submitButton_Click(sender As Object, e As EventArgs) Handles submitButton.Click
-        Dim file As System.IO.StreamWriter
-        file = New IO.StreamWriter("ContactTracingForm.txt", True)
-        file.Close()
+        Dim qcctf As System.IO.StreamWriter
+        qcctf = New IO.StreamWriter("ContactTracingForm.txt", True)
+
+        qcctf.WriteLine("Quezon City Contact Tracing Form")
+        qcctf.WriteLine("")
+        qcctf.WriteLine("Full Name: " + fullnameTextbox.Text)
+        qcctf.WriteLine("Age: " + ageTextbox.Text)
+
+        If maleRadiobutton.Checked Then
+            qcctf.WriteLine("Gender: Male")
+        Else
+            qcctf.WriteLine("Gender: Female")
+        End If
+
+
+        qcctf.Close()
     End Sub
 End Class
