@@ -18,7 +18,15 @@
             qcctf.WriteLine("Gender: Female")
         End If
 
+        qcctf.WriteLine("Contact No: " + cnTextbox.Text)
+        qcctf.WriteLine("Email: " + emailTextbox.Text)
+        qcctf.WriteLine("Date: " + DateTimePicker1.Text + "       " + "Time: " + DateTime.Now.ToString("h:mm:ss tt"))
+        qcctf.WriteLine("Address: " + addressTextbox.Text)
 
         qcctf.Close()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
