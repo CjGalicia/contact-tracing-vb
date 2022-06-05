@@ -23,6 +23,30 @@
         qcctf.WriteLine("Date: " + DateTimePicker1.Text + "       " + "Time: " + DateTime.Now.ToString("h:mm:ss tt"))
         qcctf.WriteLine("Address: " + addressTextbox.Text)
 
+        If feverYes.Checked Then
+            qcctf.WriteLine("Are you experiencing fever?: Yes")
+        Else
+            qcctf.WriteLine("Are you experiencing fever?: No")
+        End If
+
+        If drycoughYes.Checked Then
+            qcctf.WriteLine("Are you experiencing dry cough?: Yes")
+        Else
+            qcctf.WriteLine("Are you experiencing dry cough?: No")
+        End If
+
+        If tirednessYes.Checked Then
+            qcctf.WriteLine("Are you experiencing tiredness?: Yes")
+        Else
+            qcctf.WriteLine("Are you experiencing tiredness?: No")
+        End If
+
+        If sorethroatYes.Checked Then
+            qcctf.WriteLine("Are you experiencing sore throat?: Yes")
+        Else
+            qcctf.WriteLine("Are you experiencing sore throat?: No")
+        End If
+
         qcctf.Close()
     End Sub
 
