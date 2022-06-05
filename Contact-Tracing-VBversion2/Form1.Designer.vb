@@ -70,7 +70,7 @@ Partial Class Form1
         '
         Me.current_timeLabel.AutoSize = True
         Me.current_timeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.current_timeLabel.Location = New System.Drawing.Point(343, 275)
+        Me.current_timeLabel.Location = New System.Drawing.Point(337, 274)
         Me.current_timeLabel.Name = "current_timeLabel"
         Me.current_timeLabel.Size = New System.Drawing.Size(0, 15)
         Me.current_timeLabel.TabIndex = 47
@@ -80,9 +80,9 @@ Partial Class Form1
         Me.tirednessBox.Controls.Add(Me.tirednessNo)
         Me.tirednessBox.Controls.Add(Me.tirednessYes)
         Me.tirednessBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.tirednessBox.Location = New System.Drawing.Point(29, 446)
+        Me.tirednessBox.Location = New System.Drawing.Point(15, 446)
         Me.tirednessBox.Name = "tirednessBox"
-        Me.tirednessBox.Size = New System.Drawing.Size(359, 53)
+        Me.tirednessBox.Size = New System.Drawing.Size(396, 53)
         Me.tirednessBox.TabIndex = 46
         Me.tirednessBox.TabStop = False
         Me.tirednessBox.Text = "Are you experiencing tiredness?"
@@ -90,7 +90,7 @@ Partial Class Form1
         'tirednessNo
         '
         Me.tirednessNo.AutoSize = True
-        Me.tirednessNo.Location = New System.Drawing.Point(212, 20)
+        Me.tirednessNo.Location = New System.Drawing.Point(241, 20)
         Me.tirednessNo.Name = "tirednessNo"
         Me.tirednessNo.Size = New System.Drawing.Size(41, 19)
         Me.tirednessNo.TabIndex = 9
@@ -101,7 +101,7 @@ Partial Class Form1
         'tirednessYes
         '
         Me.tirednessYes.AutoSize = True
-        Me.tirednessYes.Location = New System.Drawing.Point(69, 20)
+        Me.tirednessYes.Location = New System.Drawing.Point(83, 20)
         Me.tirednessYes.Name = "tirednessYes"
         Me.tirednessYes.Size = New System.Drawing.Size(45, 19)
         Me.tirednessYes.TabIndex = 0
@@ -114,9 +114,9 @@ Partial Class Form1
         Me.drycoughBox.Controls.Add(Me.drycoughNo)
         Me.drycoughBox.Controls.Add(Me.drycoughYes)
         Me.drycoughBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.drycoughBox.Location = New System.Drawing.Point(29, 387)
+        Me.drycoughBox.Location = New System.Drawing.Point(15, 387)
         Me.drycoughBox.Name = "drycoughBox"
-        Me.drycoughBox.Size = New System.Drawing.Size(359, 53)
+        Me.drycoughBox.Size = New System.Drawing.Size(396, 53)
         Me.drycoughBox.TabIndex = 45
         Me.drycoughBox.TabStop = False
         Me.drycoughBox.Text = "Are you experiencing dry cough?"
@@ -124,7 +124,7 @@ Partial Class Form1
         'drycoughNo
         '
         Me.drycoughNo.AutoSize = True
-        Me.drycoughNo.Location = New System.Drawing.Point(212, 20)
+        Me.drycoughNo.Location = New System.Drawing.Point(241, 20)
         Me.drycoughNo.Name = "drycoughNo"
         Me.drycoughNo.Size = New System.Drawing.Size(41, 19)
         Me.drycoughNo.TabIndex = 9
@@ -135,7 +135,7 @@ Partial Class Form1
         'drycoughYes
         '
         Me.drycoughYes.AutoSize = True
-        Me.drycoughYes.Location = New System.Drawing.Point(69, 20)
+        Me.drycoughYes.Location = New System.Drawing.Point(83, 20)
         Me.drycoughYes.Name = "drycoughYes"
         Me.drycoughYes.Size = New System.Drawing.Size(45, 19)
         Me.drycoughYes.TabIndex = 0
@@ -148,9 +148,9 @@ Partial Class Form1
         Me.feverBox.Controls.Add(Me.feverNo)
         Me.feverBox.Controls.Add(Me.feverYes)
         Me.feverBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.feverBox.Location = New System.Drawing.Point(29, 328)
+        Me.feverBox.Location = New System.Drawing.Point(15, 328)
         Me.feverBox.Name = "feverBox"
-        Me.feverBox.Size = New System.Drawing.Size(359, 53)
+        Me.feverBox.Size = New System.Drawing.Size(396, 53)
         Me.feverBox.TabIndex = 44
         Me.feverBox.TabStop = False
         Me.feverBox.Text = "Are you experiencing fever?"
@@ -158,7 +158,7 @@ Partial Class Form1
         'feverNo
         '
         Me.feverNo.AutoSize = True
-        Me.feverNo.Location = New System.Drawing.Point(212, 20)
+        Me.feverNo.Location = New System.Drawing.Point(241, 20)
         Me.feverNo.Name = "feverNo"
         Me.feverNo.Size = New System.Drawing.Size(41, 19)
         Me.feverNo.TabIndex = 9
@@ -169,7 +169,7 @@ Partial Class Form1
         'feverYes
         '
         Me.feverYes.AutoSize = True
-        Me.feverYes.Location = New System.Drawing.Point(69, 20)
+        Me.feverYes.Location = New System.Drawing.Point(83, 20)
         Me.feverYes.Name = "feverYes"
         Me.feverYes.Size = New System.Drawing.Size(45, 19)
         Me.feverYes.TabIndex = 0
@@ -182,7 +182,7 @@ Partial Class Form1
         Me.addressTextbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.addressTextbox.Location = New System.Drawing.Point(88, 301)
         Me.addressTextbox.Name = "addressTextbox"
-        Me.addressTextbox.Size = New System.Drawing.Size(300, 21)
+        Me.addressTextbox.Size = New System.Drawing.Size(323, 21)
         Me.addressTextbox.TabIndex = 43
         '
         'addressLabel
@@ -237,7 +237,7 @@ Partial Class Form1
         Me.emailTextbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.emailTextbox.Location = New System.Drawing.Point(88, 243)
         Me.emailTextbox.Name = "emailTextbox"
-        Me.emailTextbox.Size = New System.Drawing.Size(300, 21)
+        Me.emailTextbox.Size = New System.Drawing.Size(323, 21)
         Me.emailTextbox.TabIndex = 37
         '
         'cnLabel
@@ -255,7 +255,7 @@ Partial Class Form1
         Me.cnTextbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.cnTextbox.Location = New System.Drawing.Point(88, 216)
         Me.cnTextbox.Name = "cnTextbox"
-        Me.cnTextbox.Size = New System.Drawing.Size(300, 21)
+        Me.cnTextbox.Size = New System.Drawing.Size(323, 21)
         Me.cnTextbox.TabIndex = 35
         '
         'genderBox
@@ -263,9 +263,9 @@ Partial Class Form1
         Me.genderBox.Controls.Add(Me.FemaleRadiobutton)
         Me.genderBox.Controls.Add(Me.maleRadiobutton)
         Me.genderBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.genderBox.Location = New System.Drawing.Point(29, 157)
+        Me.genderBox.Location = New System.Drawing.Point(15, 157)
         Me.genderBox.Name = "genderBox"
-        Me.genderBox.Size = New System.Drawing.Size(359, 53)
+        Me.genderBox.Size = New System.Drawing.Size(396, 53)
         Me.genderBox.TabIndex = 34
         Me.genderBox.TabStop = False
         Me.genderBox.Text = "Gender:"
@@ -273,7 +273,7 @@ Partial Class Form1
         'FemaleRadiobutton
         '
         Me.FemaleRadiobutton.AutoSize = True
-        Me.FemaleRadiobutton.Location = New System.Drawing.Point(212, 20)
+        Me.FemaleRadiobutton.Location = New System.Drawing.Point(241, 20)
         Me.FemaleRadiobutton.Name = "FemaleRadiobutton"
         Me.FemaleRadiobutton.Size = New System.Drawing.Size(67, 19)
         Me.FemaleRadiobutton.TabIndex = 9
@@ -284,7 +284,7 @@ Partial Class Form1
         'maleRadiobutton
         '
         Me.maleRadiobutton.AutoSize = True
-        Me.maleRadiobutton.Location = New System.Drawing.Point(69, 20)
+        Me.maleRadiobutton.Location = New System.Drawing.Point(83, 20)
         Me.maleRadiobutton.Name = "maleRadiobutton"
         Me.maleRadiobutton.Size = New System.Drawing.Size(53, 19)
         Me.maleRadiobutton.TabIndex = 0
@@ -296,7 +296,7 @@ Partial Class Form1
         '
         Me.ageTextbox.Location = New System.Drawing.Point(88, 116)
         Me.ageTextbox.Name = "ageTextbox"
-        Me.ageTextbox.Size = New System.Drawing.Size(300, 23)
+        Me.ageTextbox.Size = New System.Drawing.Size(323, 23)
         Me.ageTextbox.TabIndex = 33
         '
         'ageLabel
@@ -312,7 +312,7 @@ Partial Class Form1
         '
         Me.lnLabel.AutoSize = True
         Me.lnLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.lnLabel.Location = New System.Drawing.Point(301, 87)
+        Me.lnLabel.Location = New System.Drawing.Point(321, 87)
         Me.lnLabel.Name = "lnLabel"
         Me.lnLabel.Size = New System.Drawing.Size(67, 15)
         Me.lnLabel.TabIndex = 31
@@ -322,7 +322,7 @@ Partial Class Form1
         '
         Me.miLabel.AutoSize = True
         Me.miLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.miLabel.Location = New System.Drawing.Point(196, 87)
+        Me.miLabel.Location = New System.Drawing.Point(205, 87)
         Me.miLabel.Name = "miLabel"
         Me.miLabel.Size = New System.Drawing.Size(77, 15)
         Me.miLabel.TabIndex = 30
@@ -343,7 +343,7 @@ Partial Class Form1
         Me.fullnameTextbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.fullnameTextbox.Location = New System.Drawing.Point(88, 61)
         Me.fullnameTextbox.Name = "fullnameTextbox"
-        Me.fullnameTextbox.Size = New System.Drawing.Size(300, 21)
+        Me.fullnameTextbox.Size = New System.Drawing.Size(323, 21)
         Me.fullnameTextbox.TabIndex = 28
         '
         'fullnameLabel
@@ -369,7 +369,7 @@ Partial Class Form1
         'resetButton
         '
         Me.resetButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.resetButton.Location = New System.Drawing.Point(300, 574)
+        Me.resetButton.Location = New System.Drawing.Point(337, 575)
         Me.resetButton.Name = "resetButton"
         Me.resetButton.Size = New System.Drawing.Size(75, 23)
         Me.resetButton.TabIndex = 50
@@ -379,7 +379,7 @@ Partial Class Form1
         'submitButton
         '
         Me.submitButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.submitButton.Location = New System.Drawing.Point(195, 574)
+        Me.submitButton.Location = New System.Drawing.Point(236, 575)
         Me.submitButton.Name = "submitButton"
         Me.submitButton.Size = New System.Drawing.Size(75, 23)
         Me.submitButton.TabIndex = 49
@@ -391,9 +391,9 @@ Partial Class Form1
         Me.sorethroatBox.Controls.Add(Me.sorethroatNo)
         Me.sorethroatBox.Controls.Add(Me.sorethroatYes)
         Me.sorethroatBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.sorethroatBox.Location = New System.Drawing.Point(28, 505)
+        Me.sorethroatBox.Location = New System.Drawing.Point(15, 505)
         Me.sorethroatBox.Name = "sorethroatBox"
-        Me.sorethroatBox.Size = New System.Drawing.Size(359, 53)
+        Me.sorethroatBox.Size = New System.Drawing.Size(396, 53)
         Me.sorethroatBox.TabIndex = 48
         Me.sorethroatBox.TabStop = False
         Me.sorethroatBox.Text = "Are you experiencing sore throat?"
@@ -401,7 +401,7 @@ Partial Class Form1
         'sorethroatNo
         '
         Me.sorethroatNo.AutoSize = True
-        Me.sorethroatNo.Location = New System.Drawing.Point(212, 20)
+        Me.sorethroatNo.Location = New System.Drawing.Point(242, 20)
         Me.sorethroatNo.Name = "sorethroatNo"
         Me.sorethroatNo.Size = New System.Drawing.Size(41, 19)
         Me.sorethroatNo.TabIndex = 9
@@ -412,7 +412,7 @@ Partial Class Form1
         'sorethroatYes
         '
         Me.sorethroatYes.AutoSize = True
-        Me.sorethroatYes.Location = New System.Drawing.Point(69, 20)
+        Me.sorethroatYes.Location = New System.Drawing.Point(84, 20)
         Me.sorethroatYes.Name = "sorethroatYes"
         Me.sorethroatYes.Size = New System.Drawing.Size(45, 19)
         Me.sorethroatYes.TabIndex = 0
@@ -429,7 +429,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(410, 610)
+        Me.ClientSize = New System.Drawing.Size(426, 610)
         Me.Controls.Add(Me.resetButton)
         Me.Controls.Add(Me.submitButton)
         Me.Controls.Add(Me.sorethroatBox)
@@ -455,8 +455,9 @@ Partial Class Form1
         Me.Controls.Add(Me.fullnameTextbox)
         Me.Controls.Add(Me.fullnameLabel)
         Me.Controls.Add(Me.Title)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Quezon City Contact Tracing Form"
         Me.tirednessBox.ResumeLayout(False)
         Me.tirednessBox.PerformLayout()
         Me.drycoughBox.ResumeLayout(False)
