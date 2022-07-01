@@ -1,0 +1,14 @@
+Quezon City Contact Tracing Form
+
+Full Name: Carl Jeremy A. Galicia
+Age: 23
+Gender: Male
+Contact No: 09569210665
+Email: cj@gmail.com
+Date: Friday, July 1, 2022       Time: 11:02:10 PM
+Address: QC
+Are you experiencing fever?: No
+Are you experiencing dry cough?: No
+Are you experiencing tiredness?: Yes
+Are you experiencing sore throat?: No
+
