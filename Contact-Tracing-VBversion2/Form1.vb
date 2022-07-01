@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+    Public Property QRresult As String
     Private Sub current_time(sender As Object, e As EventArgs) Handles Timer1.Tick
         current_timeLabel.Text = DateTime.Now.ToLongTimeString()
     End Sub

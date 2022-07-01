@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "R/9TdL++NGDQj7jNQajV6VOMFY/yyVackY2wMFVNauN2kNlR8JVGMF2d1u8aWPUfP0Z4ShiXanp7Hat5+8XJtQ==",
+  "dgSpecHash": "qnbnYvpp4fnjyuuuW66ar55OLAbyGxFs2HudCgjUDBpKlgu5oO1FBdaTWbyHvQK7w0bQtXnlQTaWMv/i18GB8w==",
   "success": true,
   "projectFilePath": "D:\\Program Files (x86)\\Microsoft Visual Studio\\source\\repos-1\\Contact-Tracing-VBversion2\\Contact-Tracing-VBversion2\\Contact-Tracing-VBversion2.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karu\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\Karu\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
-    "C:\\Users\\Karu\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512"
+    "C:\\Users\\Karu\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
+    "C:\\Users\\Karu\\.nuget\\packages\\zxing.net\\0.7.0\\zxing.net.0.7.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -35,6 +36,16 @@
       "warningLevel": 1,
       "message": "Package 'AForge.Video.DirectShow 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "AForge.Video.DirectShow",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ZXing.Net 0.7.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ZXing.Net",
       "targetGraphs": [
         "net5.0-windows7.0"
       ]
