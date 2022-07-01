@@ -1,0 +1,28 @@
+Quezon City Contact Tracing Form
+
+Full Name: Carl Jeremy                     Apordo                        Galicia
+Age: 23
+Gender: Male
+Contact No: 09123456789
+Email: cjg@gmail.com
+Date: Sunday, June 5, 2022       Time: 5:17:20 PM
+Address: batasan qc
+Are you experiencing fever?: No
+Are you experiencing dry cough?: No
+Are you experiencing tiredness?: Yes
+Are you experiencing sore throat?: No
+
+Quezon City Contact Tracing Form
+
+Full Name: Max                                Apordo                        Galicia
+Age: 14
+Gender: Male
+Contact No: 0945682125
+Email: max@yahoo.com
+Date: Sunday, June 5, 2022       Time: 5:18:14 PM
+Address: holy spirit qc
+Are you experiencing fever?: Yes
+Are you experiencing dry cough?: No
+Are you experiencing tiredness?: Yes
+Are you experiencing sore throat?: No
+
