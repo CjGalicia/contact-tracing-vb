@@ -54,7 +54,15 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Dim KuhaData As String()
+        KuhaData = QRresult.Split("/".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+        fullnameTextbox.Text = KuhaData(0)
+        ageTextbox.Text = KuhaData(1)
+        If KuhaData(2) = "Male" Then
+            maleRadiobutton.Checked = True
+        Else
+            FemaleRadiobutton.Checked = True
+        End If
     End Sub
 
     Private Sub resetButton_Click(sender As Object, e As EventArgs) Handles resetButton.Click

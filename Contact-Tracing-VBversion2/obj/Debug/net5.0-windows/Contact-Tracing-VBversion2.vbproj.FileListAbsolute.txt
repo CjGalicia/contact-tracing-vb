@@ -20,3 +20,4 @@ D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\Contact-Tracing-VB
 D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\Contact-Tracing-VBversion2\Contact-Tracing-VBversion2\bin\Debug\net5.0-windows\AForge.Video.dll
 D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\Contact-Tracing-VBversion2\Contact-Tracing-VBversion2\bin\Debug\net5.0-windows\AForge.Video.DirectShow.dll
 D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\Contact-Tracing-VBversion2\Contact-Tracing-VBversion2\obj\Debug\net5.0-windows\Contact_Tracing_VBversion2.QRCC.resources
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\Contact-Tracing-VBversion2\Contact-Tracing-VBversion2\bin\Debug\net5.0-windows\zxing.dll

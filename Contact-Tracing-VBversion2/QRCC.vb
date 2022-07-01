@@ -15,6 +15,7 @@ Public Class QRCC
             Cam = Era.VideoDevice
             AddHandler Cam.NewFrame, New NewFrameEventHandler(AddressOf PicBox)
             Cam.Start()
+            QR_TIMER.Start()
         End If
     End Sub
 
