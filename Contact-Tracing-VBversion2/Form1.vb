@@ -63,6 +63,29 @@
         Else
             FemaleRadiobutton.Checked = True
         End If
+        cnTextbox.Text = KuhaData(3)
+        emailTextbox.Text = KuhaData(4)
+        addressTextbox.Text = KuhaData(5)
+        If KuhaData(6) = "Yes" Then
+            feverYes.Checked = True
+        Else
+            feverNo.Checked = True
+        End If
+        If KuhaData(7) = "Yes" Then
+            drycoughYes.Checked = True
+        Else
+            drycoughNo.Checked = True
+        End If
+        If KuhaData(8) = "Yes" Then
+            tirednessYes.Checked = True
+        Else
+            tirednessNo.Checked = True
+        End If
+        If KuhaData(9) = "Yes" Then
+            sorethroatYes.Checked = True
+        Else
+            sorethroatNo.Checked = True
+        End If
     End Sub
 
     Private Sub resetButton_Click(sender As Object, e As EventArgs) Handles resetButton.Click
